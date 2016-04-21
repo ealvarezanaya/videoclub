@@ -1,16 +1,48 @@
-<ion-view view-title="Chats">
-  <ion-content>
-    <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">
-        <img ng-src="{{chat.face}}">
-        <h2>{{chat.name}}</h2>
-        <p>{{chat.lastText}}</p>
-        <i class="icon ion-chevron-right icon-accessory"></i>
+<ion-view view-title="Video Juegos">
+  <ion-content class="padding">
 
-        <ion-option-button class="button-assertive" ng-click="remove(chat)">
-          Delete
-        </ion-option-button>
-      </ion-item>
-    </ion-list>
+<div class="list card">
+<center><h2>Accion</h2>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>prototype</p>
+<p>$250.00</p>
+</div>  
+<br/>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>Assassin's Creed</p>
+<p>$550.00</p>
+</div>
+<br/>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>Kingdom Hearts</p>
+<p>$350.00</p>
+</div> 
+</center>
+</div>
+
+<div class="list card">
+<center><h2>Aventura</h2>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>Super Mario</p>
+<p>$150.00</p>
+</div>  
+<br/>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>Tomb Raider</p>
+<p>$500.00</p>
+</div>
+<br/>
+<div class="item">
+<img class="image-list-thumb" width="100px" src="img/juego.png"/>
+<p>Batman: Arkam City</p>
+<p>$350.00</p>
+</div> 
+</center>
+</div>
   </ion-content>
 </ion-view>
